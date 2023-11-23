@@ -1,5 +1,7 @@
 package org.example;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Post {
     private final String id;
     private final String text;
